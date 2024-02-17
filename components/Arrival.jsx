@@ -2,6 +2,7 @@ import Image from "next/image";
 import image10 from "@/public/images/image10.png";
 import image11 from "@/public/images/image11.png";
 import image12 from "@/public/images/image12.png";
+import Link from "next/link";
 
 function Arrival() {
   return (
@@ -36,9 +37,11 @@ function Arrival() {
           elevate your wardrobe with fresh, fashion-forward pieces that are
           tailor-made just for you.
         </p>
-        <button className="px-[2.5rem] py-[1.3rem] rounded-[3.2rem] bg-[#8639FB] text-white font-medium text-[1.8rem] mt-[1.1rem]">
-          View More
-        </button>
+        <Link href="https://api.whatsapp.com/send?phone=2349027278911&text=Hello%20there!%0AMy%20name%20is%20______________%0AI%27d%20like%20to%20______________">
+          <button className="px-[2.5rem] py-[1.3rem] rounded-[3.2rem] bg-[#8639FB] text-white font-medium text-[1.8rem] mt-[1.1rem]">
+            View More
+          </button>
+        </Link>
       </div>
     </div>
   );

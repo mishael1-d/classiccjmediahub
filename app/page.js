@@ -1,5 +1,7 @@
 import About from "@/components/About";
 import Arrival from "@/components/Arrival";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -15,8 +17,12 @@ export default function Home() {
         <About />
         <Services />
         <Arrival />
-      <Testimonial />
+        <Testimonial />
+        <Contact />
       </main>
+      <footer className="app-container">
+        <Footer />
+      </footer>
     </>
   );
 }

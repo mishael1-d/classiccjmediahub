@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import logo from "@/public/images/logo.png";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -18,9 +19,11 @@ function Navbar() {
             <li>Products</li>
           </ul>
         </div>
-        <button className="px-[2.5rem] py-[1.3rem] rounded-[3.2rem] bg-[#8639FB] text-white font-medium text-[1.8rem]">
-          Book A Session
-        </button>
+        <Link href="https://api.whatsapp.com/send?phone=2349027278911&text=Hello%20there!%0AMy%20name%20is%20______________%0AI%27d%20like%20to%20______________">
+          <button className="px-[2.5rem] py-[1.3rem] rounded-[3.2rem] bg-[#8639FB] text-white font-medium text-[1.8rem]">
+            Book A Session
+          </button>
+        </Link>
       </div>
     </div>
   );
