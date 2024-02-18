@@ -6,9 +6,9 @@ import Link from "next/link";
 
 function Arrival() {
   return (
-    <div className="my-[14.1rem] flex flex-col lg:flex-row justify-between gap-[4.9rem]" id="products">
+    <div className="my-[14.1rem] flex flex-col-reverse lg:flex-row justify-between gap-[4.9rem]" id="products">
       <div className="flex flex-col justify-center items-center gap-[2rem]">
-        <div className="flex flex-col lg:flex-row justify-center gap-[2rem]">
+        <div className="flex flex-col-reverse lg:flex-row justify-center gap-[2rem]">
           <div className="bg-[#FFF] bg-opacity-[8%] py-[2rem] px-[1rem] rounded-[1.6rem] border border-[#FFFFF] border-opacity-[18%] w-[26.1rem] h-[26.8rem] flex flex-col justify-center items-center">
             <Image src={image10} />
             <p className="oswald text-[2rem] mt-2 text-center text-white">
@@ -27,8 +27,8 @@ function Arrival() {
           <p className="oswald text-[2rem] mt-2 text-center text-white">Cap</p>
         </div>
       </div>
-      <div>
-        <h3 className="uppercase oswald text-[6.4rem] text-white leading-[5.8rem] mb-[4rem]">
+      <div className="flex flex-col text-center lg:text-left">
+        <h3 className="uppercase oswald text-[4.8rem] lg:text-[6.4rem] text-white leading-[5.8rem] mb-[4rem]">
           Explore Our New arrivals
         </h3>
         <p className="text-[1.6rem] text-white">
@@ -38,7 +38,7 @@ function Arrival() {
           tailor-made just for you.
         </p>
         <Link href="https://api.whatsapp.com/send?phone=2349027278911&text=Hello%20there!%0AMy%20name%20is%20______________%0AI%27d%20like%20to%20______________" target="_blank">
-          <button className="px-[2.5rem] py-[1.3rem] rounded-[3.2rem] bg-[#8639FB] text-white font-medium text-[1.8rem] mt-[1.1rem]">
+          <button className="px-[2.5rem] py-[1.3rem] rounded-[3.2rem] bg-[#8639FB] text-white font-medium text-[1.8rem] mt-[2.1rem]">
             View More
           </button>
         </Link>

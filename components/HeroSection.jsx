@@ -11,7 +11,7 @@ function HeroSection() {
       <h1 className="text-[3.8rem] lg:text-[9.7rem] leading-[97%] oswald max-w-full lg:max-w-[118.1rem] mx-auto uppercase mb-[1.9rem]">
         Explore Limitless Creativity with Classicc j media hub
       </h1>
-      <p className="max-w-full lg:max-w-[63rem] mx-auto text-[1.6rem] text-[#ECECEC]">
+      <p className="max-w-full lg:max-w-[63rem] mx-auto text-[1.2rem] lg:text-[1.6rem] text-[#ECECEC]">
         Your One-Stop Hub for Exceptional Photography, Custom Prints, Studio
         Rentals, and Web & Graphic Design,Where Every Image Tells a Unique Story
       </p>
@@ -20,16 +20,16 @@ function HeroSection() {
           Book A Session
         </button>
       </Link>
-      <div className="flex flex-col lg:flex-row justify-center mt-[5.1rem] gap-[2rem]">
-        <Image src={image1} className="hover:scale-125 duration-200 w-full" />
+      <div className="flex flex-row justify-center mt-[5.1rem] gap-[2rem]">
+        <Image src={image1} className="hover:scale-125 duration-200 w-[15.8rem] lg:w-auto" />
         <Image
           src={image2}
-          className="relative top-[3.4rem] hover:scale-125 duration-200 w-full"
+          className="relative top-[3.4rem] hover:scale-125 duration-200 w-[15.8rem] lg:w-auto"
         />
-        <Image src={image3} className="hover:scale-125 duration-200 hidden lg:block" />
+        <Image src={image3} className="hover:scale-125 duration-200 hidden lg:block w-[15.8rem] lg:w-auto" />
         <Image
           src={image4}
-          className="relative top-[3.4rem] hover:scale-125 duration-200 hidden lg:block"
+          className="relative top-[3.4rem] hover:scale-125 duration-200 hidden lg:block w-[15.8rem] lg:w-auto"
         />
       </div>
     </div>

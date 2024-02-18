@@ -11,8 +11,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <main className="app-container">
         <Navbar />
+      <main className="app-container">
         <HeroSection />
         <About />
         <Services />
