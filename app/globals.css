@@ -6,6 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 html {
@@ -22,4 +24,11 @@ body {
 
 .oswald {
   font-family: "Oswald", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .app-container{
+    width: 100%;
+    padding: 0 30px;
+  }
 }

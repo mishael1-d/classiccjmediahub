@@ -4,7 +4,7 @@ import image5 from "@/public/images/image5.png";
 
 function About() {
   return (
-    <div className="my-[14rem] flex justify-between gap-[3.1rem]">
+    <div className="my-[14rem] flex justify-between gap-[3.1rem]" id="about">
       <div>
         <Image src={image5} />
       </div>

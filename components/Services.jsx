@@ -6,7 +6,7 @@ import image9 from "@/public/images/image9.png";
 
 function Services() {
   return (
-    <div>
+    <div id="services">
       <h3 className="uppercase oswald text-[6.4rem] mb-[2.6rem] text-white">
         our services
       </h3>

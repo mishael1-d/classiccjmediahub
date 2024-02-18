@@ -15,12 +15,12 @@ function Footer() {
         <Image src={logo} />
         <p>No 90 4th avenue, Gwarimpa, Abuja Nigera</p>
       </div>
-      <ul className="space-y-2">
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Products</li>
-        <li>Contact</li>
+      <ul className="space-y-3">
+      <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#services"><li>Services</li></a>
+            <a href="#products"><li>Products</li></a>
+            <a href="#contact"><li>Contact</li></a>
       </ul>
       <div className="flex flex-col gap-2">
         <a href="mailto:Classiccjmediahubng1@gmail.com">
@@ -48,7 +48,7 @@ function Footer() {
             href="https://api.whatsapp.com/send?phone=2349027278911&text=Hello%20there!%0AMy%20name%20is%20______________%0AI%27d%20like%20to%20______________"
             target="_blank"
           >
-            <Image src={w} width={28} height={28} />
+            <Image src={w} width={30} height={30} />
           </Link>
         </span>
       </div>

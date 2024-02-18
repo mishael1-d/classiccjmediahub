@@ -5,7 +5,7 @@ star;
 
 function Testimonial() {
   return (
-    <div className="bg-white rounded-[3.2rem] mx-[2%] relative  pt-[6.7rem] ">
+    <div className="bg-white rounded-[3.2rem] mx-[2%] relative  pt-[6.7rem] " id="testimonial">
       <div className="mx-[8rem] flex justify-between">
         <h3 className="uppercase oswald text-[6.4rem] mb-[2.6rem] max-w-[50.9rem] leading-[6.9rem] h-fit">
           What Our Clients are Saying

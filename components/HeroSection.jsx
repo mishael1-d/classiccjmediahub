@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function HeroSection() {
   return (
-    <div className="mt-[6rem] text-white text-center">
+    <div className="mt-[6rem] text-white text-center" id="home">
       <h1 className="text-[9.7rem] leading-[97%] oswald max-w-[118.1rem] mx-auto uppercase mb-[1.9rem]">
         Explore Limitless Creativity with Classicc j media hub
       </h1>
@@ -15,7 +15,7 @@ function HeroSection() {
         Your One-Stop Hub for Exceptional Photography, Custom Prints, Studio
         Rentals, and Web & Graphic Design,Where Every Image Tells a Unique Story
       </p>
-      <Link href="https://api.whatsapp.com/send?phone=2349027278911&text=Hello%20there!%0AMy%20name%20is%20______________%0AI%27d%20like%20to%20______________">
+      <Link href="https://api.whatsapp.com/send?phone=2349027278911&text=Hello%20there!%0AMy%20name%20is%20______________%0AI%27d%20like%20to%20______________" target="_blank">
         <button className="px-[2.5rem] py-[1.3rem] rounded-[3.2rem] bg-[#8639FB] text-white font-medium text-[1.8rem] mt-[1.1rem]">
           Book A Session
         </button>
@@ -26,10 +26,10 @@ function HeroSection() {
           src={image2}
           className="relative top-[3.4rem] hover:scale-125 duration-200"
         />
-        <Image src={image3} className="hover:scale-125 duration-200" />
+        <Image src={image3} className="hover:scale-125 duration-200 hidden lg:block" />
         <Image
           src={image4}
-          className="relative top-[3.4rem] hover:scale-125 duration-200"
+          className="relative top-[3.4rem] hover:scale-125 duration-200 hidden lg:block"
         />
       </div>
     </div>
