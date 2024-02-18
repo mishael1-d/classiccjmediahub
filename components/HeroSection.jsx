@@ -8,7 +8,7 @@ import Link from "next/link";
 function HeroSection() {
   return (
     <div className="mt-[6rem] text-white text-center" id="home">
-      <h1 className="text-[4.8rem] lg:text-[9.7rem] leading-[97%] oswald max-w-full lg:max-w-[118.1rem] mx-auto uppercase mb-[1.9rem]">
+      <h1 className="text-[3.8rem] lg:text-[9.7rem] leading-[97%] oswald max-w-full lg:max-w-[118.1rem] mx-auto uppercase mb-[1.9rem]">
         Explore Limitless Creativity with Classicc j media hub
       </h1>
       <p className="max-w-full lg:max-w-[63rem] mx-auto text-[1.6rem] text-[#ECECEC]">
@@ -20,11 +20,11 @@ function HeroSection() {
           Book A Session
         </button>
       </Link>
-      <div className="flex mt-[5.1rem] gap-[2rem]">
-        <Image src={image1} className="hover:scale-125 duration-200" />
+      <div className="flex flex-col lg:flex-row justify-center mt-[5.1rem] gap-[2rem]">
+        <Image src={image1} className="hover:scale-125 duration-200 w-full" />
         <Image
           src={image2}
-          className="relative top-[3.4rem] hover:scale-125 duration-200"
+          className="relative top-[3.4rem] hover:scale-125 duration-200 w-full"
         />
         <Image src={image3} className="hover:scale-125 duration-200 hidden lg:block" />
         <Image
