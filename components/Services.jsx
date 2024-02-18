@@ -10,7 +10,7 @@ function Services() {
       <h3 className="uppercase oswald text-[6.4rem] mb-[2.6rem] text-white">
         our services
       </h3>
-      <div className="flex justify-end gap-[2.8rem] mb-[2.6rem]">
+      <div className="flex flex-col lg:flex-row justify-end gap-[2.8rem] mb-[2.6rem]">
         <div className="max-w-[43.1rem] text-white bg-[#FFF] bg-opacity-[8%] py-[2rem] px-[1rem] rounded-[1.6rem] border border-[#FFFFF] border-opacity-[18%]">
           <Image src={image6} />
           <p className="mt-[1.3rem] mb-[.7rem] text-[2rem] font-bold">
@@ -36,7 +36,7 @@ function Services() {
           </p>
         </div>
       </div>
-      <div className="flex justify-start gap-[2.8rem] mb-[2.6rem]">
+      <div className="flex flex-col lg:flex-row justify-start gap-[2.8rem] mb-[2.6rem]">
         <div className="max-w-[43.1rem] text-white bg-[#FFF] bg-opacity-[8%] py-[2rem] px-[1rem] rounded-[1.6rem] border border-[#FFFFF] border-opacity-[18%]">
           <Image src={image8} />
           <p className="mt-[1.3rem] mb-[.7rem] text-[2rem] font-bold">

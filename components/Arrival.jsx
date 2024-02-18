@@ -8,7 +8,7 @@ function Arrival() {
   return (
     <div className="my-[14.1rem] flex flex-col lg:flex-row justify-between gap-[4.9rem]" id="products">
       <div className="flex flex-col justify-center items-center gap-[2rem]">
-        <div className="flex justify-center gap-[2rem]">
+        <div className="flex flex-col lg:flex-row justify-center gap-[2rem]">
           <div className="bg-[#FFF] bg-opacity-[8%] py-[2rem] px-[1rem] rounded-[1.6rem] border border-[#FFFFF] border-opacity-[18%] w-[26.1rem] h-[26.8rem] flex flex-col justify-center items-center">
             <Image src={image10} />
             <p className="oswald text-[2rem] mt-2 text-center text-white">

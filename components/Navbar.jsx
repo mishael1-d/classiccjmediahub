@@ -9,7 +9,7 @@ function Navbar() {
       <div>
         <Image src={logo} alt="logo" />
       </div>
-      <div className="flex justify-center items-center gap-2">
+      <div className="hidden lg:flex justify-center items-center gap-2">
         <div className=" bg-[#1D1D1D] px-[3.7rem] py-[1.7rem] rounded-[3.2rem]">
           <ul className="flex justify-center items-center gap-[3.7rem] text-[#B8B8B8] text-[1.6rem]">
             <a href="#home"><li>Home</li></a>

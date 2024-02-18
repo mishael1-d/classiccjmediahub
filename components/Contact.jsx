@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="w-[99.1rem] mx-auto pt-[6.7rem] text-white" id="contact">
+    <div className="w-full lg:w-[99.1rem] mx-auto pt-[6.7rem] text-white" id="contact">
       <h3 className="text-[3.6rem] mb-[1rem] text-center">Contact us</h3>
       <form action="" className="w-full">
         <div className="mb-[2.5rem]">
@@ -14,7 +14,7 @@ function Contact() {
             className="w-full rounded-[.8rem] border border-[#8D8D8D] bg-white bg-opacity-[9%] h-[4.6rem] text-[1.6rem] px-4 outline-none"
           />
         </div>
-        <div className="grid grid-cols-2 gap-[4rem] w-full mb-[2.5rem]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[4rem] w-full mb-[2.5rem]">
           <div className="">
             <label htmlFor="" className="block text-[1.6rem] mb-[.8rem]">
               Phone Number

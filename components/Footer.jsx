@@ -8,8 +8,8 @@ import Link from "next/link";
 function Footer() {
   return (
     <div
-      className="text-[#9B9B9B] w-[107.2rem] mx-auto flex justify-between
-     items-start text-[1.6rem] py-[10rem]"
+      className="text-[#9B9B9B] w-full lg:w-[107.2rem] mx-auto flex flex-col lg:flex-row justify-between
+     items-start text-[1.6rem] py-[10rem] gap-8 lg:gap-0"
     >
       <div>
         <Image src={logo} />

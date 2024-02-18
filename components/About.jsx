@@ -4,11 +4,11 @@ import image5 from "@/public/images/image5.png";
 
 function About() {
   return (
-    <div className="my-[14rem] flex justify-between gap-[3.1rem]" id="about">
+    <div className="my-[14rem] flex flex-col lg:flex-row justify-between gap-[3.1rem]" id="about">
       <div>
         <Image src={image5} />
       </div>
-      <div className="max-w-[55.3rem] h-fit text-white bg-[#FFF] bg-opacity-[8%] p-[2.6rem] rounded-[1.6rem] border border-[#FFFFF] border-opacity-[18%]">
+      <div className="max-w-full lg:max-w-[55.3rem] h-fit text-white bg-[#FFF] bg-opacity-[8%] p-[2.6rem] rounded-[1.6rem] border border-[#FFFFF] border-opacity-[18%]">
         <h3 className="uppercase text-[6.4rem] oswald">our story</h3>
         <p className="text-[1.6rem]">
           With years of experience in photography and branding, We know what it

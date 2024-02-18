@@ -5,14 +5,14 @@ star;
 
 function Testimonial() {
   return (
-    <div className="bg-white rounded-[3.2rem] mx-[2%] relative  pt-[6.7rem] " id="testimonial">
-      <div className="mx-[8rem] flex justify-between">
-        <h3 className="uppercase oswald text-[6.4rem] mb-[2.6rem] max-w-[50.9rem] leading-[6.9rem] h-fit">
+    <div className="bg-white rounded-[3.2rem] mx-0 lg:mx-[2%] relative  pt-[6.7rem] " id="testimonial">
+      <div className="lg:mx-[8rem] flex flex-col lg:flex-row justify-between">
+        <h3 className="uppercase oswald text-[4.8rem] lg:text-[6.4rem] text-center lg:text-left mb-[2.6rem] max-w-full lg:max-w-[50.9rem] leading-[6.9rem] h-fit">
           What Our Clients are Saying
         </h3>
-        <Image src={image13} className="w-[40rem] relative top-[-14rem]" />
+        <Image src={image13} className="w-[80%] lg:w-[40rem] mx-auto relative lg:top-[-14rem]" />
       </div>
-      <div className="mx-[1rem] relative top-[-10rem] grid grid-cols-3 gap-4 gap-y-8">
+      <div className="mx-[1rem] relative lg:top-[-10rem] grid grid-cols-1 lg:grid-cols-3 gap-4 gap-y-8">
         <TestimonialCards />
         <TestimonialCards />
         <TestimonialCards />
