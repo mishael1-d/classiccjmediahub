@@ -24,7 +24,7 @@ function Navbar() {
     };
   }, []);
   return (
-    <div className={` sticky top-0 z-[1000] ${navbar ? "bg-black bg-opacity-70" : ""}`}>
+    <div className={` sticky top-0 z-[1000] ${navbar ? "bg-black" : ""}`}>
       <div className={`app-container flex justify-between items-center`}>
 
         <div>
