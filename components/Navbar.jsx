@@ -1,21 +1,28 @@
 
 "use client"
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "@/public/images/logo.png";
 import Link from "next/link";
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
-  const changeBg = () => {
-    if (window.scrollY >= 100) {
-      setNavbar(true)
-    } else {
-      setNavbar(false)
-    }
-  }
+  useEffect(() => {
+    const changeBg = () => {
+      if (window.scrollY >= 100) {
+        setNavbar(true);
+      } else {
+        setNavbar(false);
+      }
+    };
 
-  window.addEventListener('scroll', changeBg)
+    window.addEventListener('scroll', changeBg);
+
+    // Cleanup function to remove the event listener when component unmounts
+    return () => {
+      window.removeEventListener('scroll', changeBg);
+    };
+  }, []);
   return (
     <div className={` sticky top-0 z-[1000] ${navbar ? "bg-black bg-opacity-70" : ""}`}>
       <div className={`app-container flex justify-between items-center`}>
